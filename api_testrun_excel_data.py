@@ -31,24 +31,17 @@ a=cell.row
 print(a)
 rangeSelected = copyrange(1,a,27,a,sheet)
 
-#######to check data copied
+# To check data copied
 print(rangeSelected[0][1])
 print('This is done 1')
 		
-#entering data in Payload
+# Entering data in Payload
 payload = { }
 
-#######to check feteched 
+# To check feteched 
 print(payload)
 print('This is done 2') 
 
-
+#
 payload = json.dumps(payload)
-
-
-#######to check json
-
 print(payload)
-
-
-print('This is done 3')
